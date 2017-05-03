@@ -1,0 +1,145 @@
+/*
+ * Ingresa el CSS del proyecto en este archivo
+ */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /* Establece la fuente de Google aquí */
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+
+.link{
+  font-weight: 700;
+  padding: 21px;
+}
+.logo{
+  float: right;
+}
+
+header{
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+}
+
+.menu{
+  padding: 14px 70px;
+  overflow: auto;
+}
+/*Estilos sección home*/
+#home{
+  background-image: url(../assets/images/bg-home.jpg); /*Muestra imagen de portada*/
+  background-position: center;
+  background-repeat: no-repeat;/*No repite imagen de fondo*/
+  background-size: cover;/*Cure el tamaño del contenedor*/
+  height: 554px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+#home .container{
+  color: white;/*Textos de color blanco*/
+  padding: 70px;/*Tamaño de relleno en todos los lados*/
+}
+
+.text-home{
+  font-size: 53px;/*Tamaño de la tipografía*/
+}
+h2{
+  font-size: 25px;/*Tamaño de la tipografía*/
+}
+h1{
+  font-size: 40px;/*Tamaño de la tipografía*/
+}
+p{
+  font-size: 20px;/*Tamaño de la tipografía*/
+
+}
+
+.btn-home{
+  background: #2ECC71;
+  color: #fff; /*Color texto*/
+  padding: 11px 20px;/*Relleno en el botón*/
+  border-radius: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px;
+}
+/*Estilos sección Services*/
+#services{
+  background-color: #F17C72;
+  text-align: center;
+  color: #fff;
+  padding: 70px 7px; /*Relleno del boton*/
+}
+
+.box-services{
+  display: inline-block;
+  width: 30%;/*Ancho de las cajas*/
+  margin-top: 10%;
+}
+
+.text-services{
+  font-size: 35px;
+  letter-spacing: 2px; /*Espacio entre cada letra*/
+}
+/*Estilos sección work*/
+#work{
+  text-align: center;
+}
+
+.box-work{
+  display: inline-block;
+  width: 30%;
+  margin-top: 20%;
+}
+
+footer{
+    height: 70px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: gray;
+}
+
+/* Estilos de la segunda parte del ejercicio*/
+
+/*.box-work img:hover {*/
+  /*transform: scale(5) translate(50px);
+  padding: 3px;
+  margin: 10px 50px;
+  border-width: 10px 50px;
+  border-style: solid;
+  border-color: rgba(29, 233, 199, 0.5);*/
